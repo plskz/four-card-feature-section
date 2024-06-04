@@ -15,7 +15,7 @@ export default function Card({
   return (
     <div
       className={cn(
-        "relative max-w-96 space-y-2 overflow-hidden rounded-2xl bg-white p-6 shadow-xl",
+        "relative max-w-96 space-y-2 overflow-hidden rounded-2xl bg-white p-6 shadow-xl hover:cursor-pointer transform transition-transform ease-in hover:scale-105",
         {
           "lg:col-start-1 lg:col-end-1 lg:row-start-1 lg:row-end-1 lg:translate-y-1/2": title === "Supervisor",
           "lg:col-start-2 lg:col-end-2 lg:row-start-1 lg:row-end-1": title === "Team Builder",
